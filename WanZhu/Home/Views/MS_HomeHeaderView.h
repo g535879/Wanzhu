@@ -1,0 +1,13 @@
+//
+//  MS_HomeHeaderView.h
+//  WanZhu
+//
+//  Created by 古玉彬 on 16/6/27.
+//  Copyright © 2016年 ms. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MS_HomeHeaderView : UIView
+
+@end

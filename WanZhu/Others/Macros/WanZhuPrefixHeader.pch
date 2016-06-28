@@ -1,0 +1,73 @@
+//
+//  WanZhuPrefixHeader.pch
+//  WanZhu
+//
+//  Created by 古玉彬 on 16/6/27.
+//  Copyright © 2016年 ms. All rights reserved.
+//
+
+#ifndef WanZhuPrefixHeader_pch
+#define WanZhuPrefixHeader_pch
+
+#import "UIView+LDExtension.h"
+#import "UIAlertView+Blocks.h"
+#import "UIColor+tools.h"
+#import "URLPath.h"
+#import <UIView+SDAutoLayout.h>
+#import <SVProgressHUD.h>
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import <MJExtension.h>
+#import "UIColor+tools.h"
+#import "Const.h"
+//基类视图控制器
+#import "MS_BasicViewController.h"
+#import "MS_NavigationController.h"
+
+#import "UIAlertView+Blocks.h"
+
+#import <AFNetworking.h>
+
+#ifdef DEBUG
+#define MSLog(...) NSLog(__VA_ARGS__)
+#else
+#define MSLog(...)
+#endif
+
+#define MSLogFuc MSLog(@"%s, %d", __func__, __line__);
+
+#define IOS7 [[[UIDevice currentDevice]systemVersion]floatValue]>=7.0
+#define IOS8 [[[UIDevice currentDevice]systemVersion]floatValue]>=8.0
+#define MSIsIPhone5 ([[UIScreen mainScreen] bounds].size.height == 568)
+#define MSIsIPhone6 ([[UIScreen mainScreen] bounds].size.height == 667)
+#define MSIsIPhone6P ([[UIScreen mainScreen] bounds].size.height == 736)
+
+
+//获取屏幕 宽度、高度
+#define MSScreenW ([UIScreen mainScreen].bounds.size.width)
+#define MSScreenH ([UIScreen mainScreen].bounds.size.height)
+#define MSScreenBounds [UIScreen mainScreen].bounds
+
+//iphone6 高度比例
+#define MSSCALE MSScreenH/667.0
+
+// iPhone6下适配
+#define MSAdaptedWidth(x) (x * MSScreenW/375.0)
+#define MSAdaptedHeight(x) (x * MSScreenH/667.0)
+
+//RGB颜色设置
+#define MSColorA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define MSColor(r,g,b) MSColorA(r,g,b,1.0f)
+
+//16进制图片
+#define MSHexColor(c) [UIColor colorWithHexString:c]
+
+//图片
+#define MSUIimageStr(str) [UIImage imageNamed:(str)]
+
+//弱引用自身
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+
+#endif /* WanZhuPrefixHeader_pch */

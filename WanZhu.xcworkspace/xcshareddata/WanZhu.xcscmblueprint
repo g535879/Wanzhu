@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4a738fec-60e4-0541-9bda-7e84955e4a2f++7835",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4a738fec-60e4-0541-9bda-7e84955e4a2f++7835" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4a738fec-60e4-0541-9bda-7e84955e4a2f++7835" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C27093DB-5B89-4B13-97A7-7486818F7BB2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4a738fec-60e4-0541-9bda-7e84955e4a2f++7835" : "WanZhuApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WanZhu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WanZhu\/WanZhu.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/115.29.145.96:7001\/svn\/project",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4a738fec-60e4-0541-9bda-7e84955e4a2f++7835"
+    }
+  ]
+}
