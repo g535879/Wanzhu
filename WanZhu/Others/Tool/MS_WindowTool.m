@@ -21,7 +21,7 @@
     NSString *currentVersion = infoDict[Key];
 
     // 比较沙盒中版本号和当前版本号是否一致
-    if (0 || ![sandboxVersion isEqualToString:currentVersion]) {// 沙盒中版本号不存在或沙盒中版本号较小
+    if (0 && ![sandboxVersion isEqualToString:currentVersion]) {// 沙盒中版本号不存在或沙盒中版本号较小
 //        app.statusBarHidden = YES;// 隐藏状态栏
         window.rootViewController = [[MS_GuideViewController alloc] init];
         // 将最新的版本号保存到沙盒
